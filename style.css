@@ -6,6 +6,56 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+/* Nav Syles */
+header{
+   background: #FFF;
+   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-container{
+   max-width: 1100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+   margin: 0 auto;
+   margin-top: -10px;
+   margin-bottom: -10px;
+}
+.btnn {
+   border: none;
+   color: #222;
+   padding: 3px 8px;
+   font-size: 16px;
+   border-radius: 8px;
+   background: rgba(11, 2, 35, 0.10);
+ }
+.logo-div{
+   display: flex;
+   border-radius: 50px;
+   background-color: #fff;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid #fff;
+}
+.lmini{
+   width: 60px;
+}
+.lgtitle{
+   padding: 10px;
+   color: #0B0223;
+   font-size: 28px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+.nav-menu-link{
+   margin: 30px 0;
+}
+.nav-item{
+   padding: 0 15px;
+   color: #222;
+   text-decoration: none;
+}
 
  /* Hero Syles */
  .hero-section{
@@ -13,6 +63,7 @@ body{
    display: flex;
    align-items: center;
    padding: 0px 120px;
+   
 }
 .intro-text{
    width: 50%;
@@ -60,6 +111,56 @@ background-clip: text;
 .pic{
    width: 500px;
    
+}
+/* Gamer */
+.gamesection{
+   background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.ins-section{
+   max-width: 1200px;
+   display: flex;
+   align-items: center;
+   padding: 0px 120px;
+   margin-bottom: 50px;
+}
+.ins-text{
+   text-align: right;
+   width: 45%;
+   padding-right: 100px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+.ins-heading{
+   font-size: 40px;
+   font-weight: 800;
+   padding-top: 10px;
+   padding-bottom: 20px;
+}
+.clo{
+   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.intro-para{
+   font-size: 18px;
+   padding-bottom: 10px;
+   color: #222;
+}
+.gpicu{
+   width: 600px;
+}
+.gmr-button{
+   margin-top: 18px;
+   padding: 12px 28px;
+   background-color: #FF42A5;
+   text-transform: uppercase;
+   border: 0px;
+   border-radius: 50px;;
+   color: #fff;
+   font-size: 14px;
+   font-weight: 600;
+   cursor: pointer;
 }
  /* Funny video section Syles */
  .fun-info{
@@ -170,7 +271,7 @@ background-clip: text;
 }
 .icon-div:hover{
    cursor: pointer;
-   border: 2px solid tomato;
+   border: 2px solid #FF42A5;
 }
 .mini{
    width: 40px;
@@ -194,6 +295,20 @@ background-clip: text;
    cursor: pointer;
  }
 /* Footer section Syles */
+.foot-logo-div{
+   display: flex;
+   border-radius: 50px;
+   align-items: center;
+   justify-content: center;
+}
+.fgtitle{
+   padding: 10px;
+   color: #fff;
+   font-size: 28px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
 .footer-info{
    background-color: #0B0223;
    text-align: center;
