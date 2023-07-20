@@ -378,3 +378,91 @@ background-clip: text;
    color: rgba(255, 255, 255, 0.60);
    text-decoration: none;
 }
+/* responsive */
+@media screen and (max-width: 576px){
+   .nav-container{
+      display: block;
+      padding: 20px 0;
+   }
+   .nav-menu-link{
+      margin: 10px;
+   }
+   .btnn{
+      margin-top: 15px;
+   }
+   .hero-section {
+      display: block;
+      padding: 0 50px;
+    }
+    .intro-text {
+      width: 100%;
+      padding-top: 70px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 30px;
+    }
+    .intro-para1 {
+      font-size: 16px;
+    }
+    .pic {
+      width: 300px;
+      padding-bottom: 40px;
+    }
+    .ins-section{
+      display: block;
+      padding: 50px 50px;
+    }
+    .gpicu {
+      width: 300px;
+    }
+    .ins-text{
+      width: 100%;
+      padding: 0;
+      text-align: center;
+    }
+    .fun-info {
+      padding: 15px 35px;
+    }
+    .fun-gallery{
+      display: block;
+      padding-bottom: 0;
+    }
+    .fea-gl-item{
+      margin: 25px 0;
+      padding: 0;
+    }
+    .pcla{
+      padding: 10px 30px;
+    }
+    .picu{
+      width: 300px;
+      margin-left: 20px;
+    }
+    .picu2 {
+      width: 120px;
+      margin-left: -15px;
+    }
+    .flower-img{
+      padding-top: 30px;
+    }
+    .icon-container{
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+    .icon-div {
+      padding: 5px;
+    }
+    .mini {
+      width: 20px;
+      height: 20px;
+    }
+    .spara{
+      font-size: 12px;
+    }
+    .before-footer {
+      padding: 20px 0;
+    }
+    .foot, .foot2{
+      line-height: 34px;
+    }
+}
